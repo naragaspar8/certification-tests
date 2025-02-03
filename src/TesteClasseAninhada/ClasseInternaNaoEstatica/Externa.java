@@ -1,6 +1,6 @@
 package TesteClasseAninhada.ClasseInternaNaoEstatica;
 
-//CLASSE INTERNA NAO ESTATICA
+//CLASSE INTERNA NAO ESTATICA(classe interna nao estatica precisa de instancia da classe externa)
 public class Externa {
     private String mensagem = "Mensagem privada da classe externa";
 

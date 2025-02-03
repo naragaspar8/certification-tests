@@ -1,6 +1,6 @@
 package TesteClasseAninhada.ClasseLocal;
 
-// CRIANDO UMA CLASSE LOCAL
+// CRIANDO UMA CLASSE LOCAL(classe local tem escopo limitado ao metodo)
 public class Calculadora {
 
     public static void main(String [] args){

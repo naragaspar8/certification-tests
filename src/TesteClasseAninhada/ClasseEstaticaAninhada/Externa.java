@@ -1,6 +1,6 @@
 package TesteClasseAninhada.ClasseEstaticaAninhada;
 
-//CLASSE ESTÁTICA ANINHADA
+//CLASSE ESTÁTICA ANINHADA(classes estáticas aninhadas não precisam de uma instancia da classe externa)
 public class Externa {
     static class EstaticaAninhada{
         void exibirMensagem(){
@@ -17,7 +17,7 @@ public class Externa {
         EstaticaAninhada.exibirSegundaMensagem();
 
         //Instanciando a classe estática para chamar o metodo nao estático (não precisa instanciar a classe Externa)
-        //Externa.EstaticaAninhada estaticaAninhada = new Externa.EstaticaAninhada();
-        //estaticaAninhada.exibirMensagem();
+        Externa.EstaticaAninhada estaticaAninhada = new Externa.EstaticaAninhada();
+        estaticaAninhada.exibirMensagem();
     }
 }
